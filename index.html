@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Math Quiz</title>
+
+  <!-- Added link to the jQuery Library -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  <link rel="stylesheet" href="assets\css\reset.css">
+  
+  <link rel="stylesheet" href="assets\css\style.css">
+
+  <!-- Added a link to Bootstrap-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+</head>
+<body id="sec">
+<h1 id="h1">Time Remaining: <span id="counter">60</span> Seconds</h1>
+
+    <form name="form" onsubmit="return score()">
+        <h3>1. What is 3 x 3 - 1 ?</h3>
+        <input type="radio" name="q1" value="a">a.2 <br>
+        <input type="radio" name="q1" value="b">b.8 <br>
+        <input type="radio" name="q1" value="c">c.-8 <br>
+        <input type="radio" name="q1" value="d">a.-2 <br>
+        <br>
+        <h3>2. What is 20 - 3 *6 ?</h3>
+        <input type="radio" name="q2" value="a">a.2 <br>
+        <input type="radio" name="q2" value="b">b.8 <br>
+        <input type="radio" name="q2" value="c">c.-8 <br>
+        <input type="radio" name="q2" value="d">a.-2 <br>
+        <br>
+        <h3>3. What is 40 x 3 - 1 - 117 ?</h3>
+        <input type="radio" name="q3" value="a">a.-2 <br>
+        <input type="radio" name="q3" value="b">b.-8 <br>
+        <input type="radio" name="q3" value="c">c.8 <br>
+        <input type="radio" name="q3" value="d">a.2 <br>
+        
+    </form>
+    <script src="assets\javascript\app.js"></script>
+</body>
+</html>
